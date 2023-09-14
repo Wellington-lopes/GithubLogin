@@ -116,3 +116,38 @@ input:focus{
 .black {
     color: rgba(51, 51, 51, 0.831);
 }
+
+@media screen and (max-width: 40rem){
+    #card-grey {
+        max-width: 13rem;
+    }
+
+    .textfield a {
+        position: absolute;
+        margin: 2% 0 0 45%;
+        font-size: 0.6rem;
+        text-decoration: none;
+    }
+
+    .card2 {
+        max-width: 13rem;
+        font-size: 0.8rem;
+        margin-top:1%;
+        padding-top: 3%;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        max-width: 13rem;
+    }
+
+    .footer a{
+        font-size: 11px;
+        text-decoration: none;
+        margin: 0;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+    }
+}
